@@ -1,0 +1,37 @@
+body {
+    font-family: 'Chicle', serif;
+}
+
+.page-row {
+    display: flex;
+    gap: 12px; /* Adds space between your items */
+    align-items: center; /* Aligns them vertically in the center */
+}
+.title-row {
+    display: flex;
+    gap: 12px; /* Adds space between your items */
+    align-items: center; /* Aligns them vertically in the center */
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to flow into multiple rows */
+    gap: 5px;       /* Space between the product cards */
+}
+
+.product-card {
+    width: 150px;    /* Keeps each card a fixed width */
+    margin: 0;       /* Removes default figure margins */
+}
+
+.product-title {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Automatically adds '...' when text overflows! */
+}
+
+.product-price {
+    font-size: 12px;
+    font-weight: bold;
+}
